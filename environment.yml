@@ -1,4 +1,4 @@
-name: ae598-arp
+name: ae598-arp-2
 channels:
   - conda-forge
 dependencies:
@@ -12,8 +12,6 @@ dependencies:
   - sympy
   - matplotlib
   - pinocchio
-  - meshcat-python
-  - meshcat-shapes
   - pytorch
   - torchvision
   - tensorboard
@@ -21,6 +19,8 @@ dependencies:
   - mediapy
   - robot_descriptions
   - pip:
+    - git+https://github.com/meshcat-dev/meshcat-python.git
+    - git+https://github.com/stephane-caron/meshcat-shapes.git
     - mujoco>=3.4.0
     - 'stable-baselines3[extra]'
     - 'gymnasium[mujoco]'
