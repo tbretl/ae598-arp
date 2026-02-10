@@ -1,4 +1,4 @@
-name: ae598-arp-2
+name: ae598-arp
 channels:
   - conda-forge
 dependencies:
