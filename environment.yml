@@ -18,6 +18,7 @@ dependencies:
   - qpsolvers
   - mediapy
   - robot_descriptions
+  - crocoddyl
   - pip:
     - git+https://github.com/meshcat-dev/meshcat-python.git
     - git+https://github.com/stephane-caron/meshcat-shapes.git
